@@ -138,7 +138,7 @@ import org.koin.androidx.compose.koinViewModel
                 }
                 Spacer(modifier = Modifier.weight(1f))
 
-                // Button at the bottom
+
                 Button(modifier = Modifier.fillMaxWidth(), onClick = {
                     onClick()
                 }) {

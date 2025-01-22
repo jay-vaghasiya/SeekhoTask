@@ -13,12 +13,12 @@ class AnimeDetailsRepositoryImpl() : AnimeDetailsRepository {
             if (response.isSuccessful) {
                 response.body()
             } else {
-                throw Exception("Failed to fetch data: ${response.message()}")
+                throw Exception(response.message())
             }
         } catch (e: IOException) {
-            throw Exception("Failed to fetch data: ${e.message}")
+            throw Exception(e.message)
         } catch (e: Exception) {
-            throw Exception("Network error: ${e.message}")
+            throw Exception(e.message)
         }
     }
 }
