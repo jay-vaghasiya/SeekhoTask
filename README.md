@@ -24,3 +24,4 @@ To Clone :
 https://github.com/jay-vaghasiya/SeekhoTask.git
 
 For Drive , Loom video and Task File
+https://drive.google.com/drive/folders/1_XXIIDcs4kKrJPQBZnAQ3nsQfBZGapRW?usp=drive_link
